@@ -269,43 +269,6 @@ index=main sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" "reg
 
 ![T1112 Detection](./screenshots/33-t1112-detection.png)
 
-## All Screenshots
-
-| No. | Screenshot |
-|---:|---|
-| 01 | [Network Topology](./screenshots/01-network-topology.png) |
-| 02 | [Splunk Download](./screenshots/02-splunk-download.png) |
-| 03 | [Splunk Start Terminal](./screenshots/03-splunk-start-terminal.png) |
-| 04 | [Splunk Login Page](./screenshots/04-splunk-login-page.png) |
-| 05 | [Splunk Dashboard](./screenshots/05-splunk-dashboard.png) |
-| 06 | [Splunk Listen 9997](./screenshots/06-splunk-listen-9997.png) |
-| 07 | [Forwarder Installer Start](./screenshots/07-forwarder-installer-start.png) |
-| 08 | [Forwarder Install Path](./screenshots/08-forwarder-install-path.png) |
-| 09 | [Forwarder SSL Page](./screenshots/09-forwarder-ssl-page.png) |
-| 10 | [Forwarder Event Logs](./screenshots/10-forwarder-event-logs.png) |
-| 11 | [Forwarder Admin Credentials](./screenshots/11-forwarder-admin-credentials.png) |
-| 12 | [Forwarder Deployment Server](./screenshots/12-forwarder-deployment-server.png) |
-| 13 | [Forwarder Receiving Indexer](./screenshots/13-forwarder-receiving-indexer.png) |
-| 14 | [Forwarder Installing](./screenshots/14-forwarder-installing.png) |
-| 15 | [Forwarder Installed](./screenshots/15-forwarder-installed.png) |
-| 16 | [Sysmon Directory](./screenshots/16-sysmon-directory.png) |
-| 17 | [Sysmon Event Viewer](./screenshots/17-sysmon-event-viewer.png) |
-| 18 | [inputs.conf Sysmon](./screenshots/18-inputs-conf-sysmon.png) |
-| 19 | [Splunk Data Summary](./screenshots/19-splunk-data-summary.png) |
-| 20 | [Splunk Sourcetypes](./screenshots/20-splunk-sourcetypes.png) |
-| 21 | [Sysmon Log Search Verification](./screenshots/21-sysmon-log-search-verification.png) |
-| 22 | [Atomic Red Team Setup](./screenshots/22-atomicredteam-setup.png) |
-| 23 | [T1053 Execution](./screenshots/23-t1053-execution.png) |
-| 24 | [T1053 Calc Proof](./screenshots/24-t1053-calc-proof.png) |
-| 25 | [T1053 Detection](./screenshots/25-t1053-detection.png) |
-| 26 | [T1218 Execution](./screenshots/26-t1218-execution.png) |
-| 27 | [T1218 Detection](./screenshots/27-t1218-detection.png) |
-| 28 | [T1003 Execution](./screenshots/28-t1003-execution.png) |
-| 29 | [T1003 Detection](./screenshots/29-t1003-detection.png) |
-| 30 | [T1059 Execution](./screenshots/30-t1059-execution.png) |
-| 31 | [T1059 Detection](./screenshots/31-t1059-detection.png) |
-| 32 | [T1112 Execution](./screenshots/32-t1112-execution.png) |
-| 33 | [T1112 Detection](./screenshots/33-t1112-detection.png) |
 
 ## Key Findings
 
