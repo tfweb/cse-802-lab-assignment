@@ -140,11 +140,13 @@ index = main
 
 ![inputs.conf Sysmon Collection](./screenshots/18-inputs-conf-sysmon.png)
 
-**Sysmon Log Collection Verification from Splunk Dashboard **
+**Sysmon Log Collection Verification from Splunk Dashboard**
 
 ![Splunk Data Summary](./screenshots/20-splunk-sourcetypes.png)
 
 ![Sysmon Log Search Verification](./screenshots/21-sysmon-log-search-verification.png)
+
+![Atomic Red Team Setup](./screenshots/22-atomicredteam-setup.png)
 
 ## Atomic Red Team Setup
 
@@ -156,7 +158,7 @@ $global:PathToAtomicsFolder = "C:\AtomicRedTeamtomics"
 Add-MpPreference -ExclusionPath "C:\AtomicRedTeam"
 ```
 
-![Atomic Red Team Setup](./screenshots/22-atomicredteam-setup.png)
+
 
 ## MITRE ATT&CK Detection Coverage
 
