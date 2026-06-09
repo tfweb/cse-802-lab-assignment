@@ -135,7 +135,6 @@ renderXml = true
 index = main
 ```
 
-![Sysmon Installation](./screenshots/16-sysmon-directory.png)
 
 ![Sysmon Event Viewer](./screenshots/17-sysmon-event-viewer.png)
 
