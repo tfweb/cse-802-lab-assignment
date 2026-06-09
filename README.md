@@ -60,9 +60,7 @@ This repository documents an isolated blue-team lab for adversary emulation and 
 
 Splunk Enterprise was set up as the central ingestion repository on the Kali Linux virtual engine. After unpacking and running the daemon installation binaries, listening server rules were established to open network sockets. 
 
-```bash
-./splunk enable listen 9997 -auth admin:password
-```
+
 **Splunk Download -s1**
 
 ![Splunk Download](./screenshots/02-splunk-download.png)
@@ -82,15 +80,26 @@ Splunk Enterprise was set up as the central ingestion repository on the Kali Lin
 
 ![Splunk Listen 9997](./screenshots/06-splunk-listen-9997.png)
 
-## Splunk Universal Forwarder Setup
+## Splunk Universal Setup
 
-Splunk Universal Forwarder was installed on Windows Server 2019 and configured to send logs to the Splunk server.
+# Command to activate network listening pipelines on the Splunk instance Kali linux
+
+```bash
+./splunk enable listen 9997 -auth admin:password
+```
+
 
 ```text
 Receiving Indexer: 192.168.56.101:9997
 ```
 
 ![Forwarder Setup](./screenshots/07-forwarder-installer-start.png)
+
+## Splunk Universal Forwarder Setup Victim PC
+
+Splunk Universal Forwarder was installed on Windows Server 2019 and configured to send logs to the Splunk server.
+
+
 
 ![Forwarder Receiving Indexer](./screenshots/13-forwarder-receiving-indexer.png)
 
