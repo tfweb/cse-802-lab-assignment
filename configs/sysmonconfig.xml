@@ -1,0 +1,10 @@
+<!--
+Place the Sysmon configuration used in the lab here.
+In the report, Sysmon was installed using:
+sysmon64.exe -i sysmonconfig.xml -accepteula
+-->
+<Sysmon schemaversion="4.90">
+  <EventFiltering>
+    <!-- Add your final Sysmon rules here -->
+  </EventFiltering>
+</Sysmon>

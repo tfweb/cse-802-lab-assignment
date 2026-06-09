@@ -1,0 +1,6 @@
+index=main sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" "reg.exe"
+| rex field=_raw "<EventID>(?<Event_ID>\\d+)</EventID>"
+| rex field=_raw "<Data Name='Image'>(?<Process_Name>[^<]+)</Data>"
+| rex field=_raw "<Data Name='CommandLine'>(?<Command_Line>[^<]+)</Data>"
+| search Event_ID=1
+| table _time, host, Event_ID, Process_Name, Command_Line
