@@ -58,14 +58,14 @@ This repository documents an isolated blue-team lab for adversary emulation and 
 
 ## Splunk Enterprise Deployment
 
-Splunk Enterprise was installed on Kali Linux and configured as the central log ingestion and analysis platform.
+Splunk Enterprise was set up as the central ingestion repository on the Kali Linux virtual engine. After unpacking and running the daemon installation binaries, listening server rules were established to open network sockets. 
 
 ```bash
 ./splunk enable listen 9997 -auth admin:password
 ```
-
+Splunk Download -s1
 ![Splunk Download](./screenshots/02-splunk-download.png)
-
+Splunk installation 
 ![Splunk Start](./screenshots/03-splunk-start-terminal.png)
 
 ![Splunk Dashboard](./screenshots/05-splunk-dashboard.png)
