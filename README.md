@@ -70,7 +70,12 @@ Splunk installation
 
 ![Splunk Start](./screenshots/2.1splunk-start-finish..png)
 
+Splunk Dashboard after successful installation
+
 ![Splunk Dashboard](./screenshots/05-splunk-dashboard.png)
+
+Splunk dashboard after successful login
+
 
 ![Splunk Listen 9997](./screenshots/06-splunk-listen-9997.png)
 
