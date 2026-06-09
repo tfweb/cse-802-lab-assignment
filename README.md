@@ -100,9 +100,23 @@ Splunk Universal Forwarder was installed on Windows Server 2019 and configured t
 
 
 
-![Forwarder Receiving Indexer](./screenshots/13-forwarder-receiving-indexer.png)
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-1r.png)
 
-![Forwarder Installation Complete](./screenshots/15-forwarder-installed.png)
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-2r.png)
+
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-3r.png)
+
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-4r.png)
+
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-5r.png)
+
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-6r.png)
+
+![Forwarder Receiving Indexer](./screenshots/Splunk-Forwarde-i-7r.png)
+
+![Forwarder Installation Complete](./screenshots/Splunk-Forwarder.png)
+
+![Forwarder Installation Complete](./screenshots/Splunk-Forwarder_installation_finish.png)
 
 ## Sysmon Setup
 
