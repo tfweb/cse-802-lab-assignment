@@ -82,20 +82,19 @@ Splunk Enterprise was set up as the central ingestion repository on the Kali Lin
 
 ## Splunk Universal Setup
 
-# Command to activate network listening pipelines on the Splunk instance Kali linux
+**Command to activate network listening pipelines on the Splunk instance on Kali linux**
 
 ```bash
 ./splunk enable listen 9997 -auth admin:password
 ```
 
+![Forwarder Setup](./screenshots/07-forwarder-installer-start.png)
 
 ```text
 Receiving Indexer: 192.168.56.101:9997
 ```
 
-![Forwarder Setup](./screenshots/07-forwarder-installer-start.png)
-
-## Splunk Universal Forwarder Setup Victim PC
+**Splunk Universal Forwarder Setup Victim PC**
 
 Splunk Universal Forwarder was installed on Windows Server 2019 and configured to send logs to the Splunk server.
 
