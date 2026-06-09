@@ -1,0 +1,9 @@
+<!-- Placeholder Sysmon configuration. Replace with the exact Sysmon config used in your lab. -->
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>md5,sha256,IMPHASH</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="include" />
+    <ProcessAccess onmatch="include" />
+    <RegistryEvent onmatch="include" />
+  </EventFiltering>
+</Sysmon>
