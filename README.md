@@ -63,18 +63,21 @@ Splunk Enterprise was set up as the central ingestion repository on the Kali Lin
 ```bash
 ./splunk enable listen 9997 -auth admin:password
 ```
-Splunk Download -s1
+**Splunk Download -s1**
+
 ![Splunk Download](./screenshots/02-splunk-download.png)
-Splunk installation 
+
+**Splunk installation** 
+
 ![Splunk Start](./screenshots/03-splunk-start-terminal.png)
 
 ![Splunk Start](./screenshots/2.1splunk-start-finish..png)
 
-Splunk Dashboard after successful installation
+**Splunk Dashboard after successful installation**
 
 ![Splunk Dashboard](./screenshots/05-splunk-dashboard.png)
 
-Splunk dashboard after successful login
+**Splunk dashboard after successful login**
 
 
 ![Splunk Listen 9997](./screenshots/06-splunk-listen-9997.png)
