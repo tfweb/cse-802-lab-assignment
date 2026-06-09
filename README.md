@@ -126,7 +126,7 @@ Sysmon was installed on the Windows endpoint to capture process creation, regist
 sysmon64.exe -i sysmonconfig.xml -accepteula
 ```
 
-Forwarder input configuration:
+**Forwarder input configuration:**
 
 ```ini
 [WinEventLog://Microsoft-Windows-Sysmon/Operational]
@@ -139,6 +139,8 @@ index = main
 ![Sysmon Event Viewer](./screenshots/17-sysmon-event-viewer.png)
 
 ![inputs.conf Sysmon Collection](./screenshots/18-inputs-conf-sysmon.png)
+
+**Sysmon Log Collection Verification from Splunk Dashboard **
 
 ![Splunk Data Summary](./screenshots/20-splunk-sourcetypes.png)
 
