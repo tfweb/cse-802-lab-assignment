@@ -68,6 +68,8 @@ Splunk Download -s1
 Splunk installation 
 ![Splunk Start](./screenshots/03-splunk-start-terminal.png)
 
+![Splunk Start](./screenshots/2.1splunk-start-finish..png)
+
 ![Splunk Dashboard](./screenshots/05-splunk-dashboard.png)
 
 ![Splunk Listen 9997](./screenshots/06-splunk-listen-9997.png)
